@@ -1,0 +1,291 @@
+resume_data = {
+    contact{
+        first_name: "Jason",
+        middle_name: "Barbour",
+        last_name: "LeBrun",
+        address: "788 Harrison St. Apt 405",
+        city: "San Francisco",
+        state: "California",
+        zip: "94107",
+        email: "jbl@opensourcejason.info",
+        phone: "415-448-7335"
+    },
+    summary: {
+        statement: "Research and development on and of mobile and embedded computing platforms",
+        detail: "I like playing with technology. I'm interested in positions where I'll constantly be exploring new technologies and solutions for accomplishing goals, as well as keeping my current skill set sharp."
+    },
+education: [{
+    school: "University of Delaware",
+    location: "Newark, DE",
+    major: "Computer Engineering",
+    gpa: 3.8,
+    gpa_max: 4.0,
+    degree: "Bachelor of Engineering",
+    degree_short: "BE",
+    start_month: 9,
+    start_year: 1998
+    end_month: 5,
+    end_year: 2002
+},
+{
+    school: "University of California",
+    location: "Davis, CA",
+    major: "Computer Engineering",
+    gpa: 3.7,
+    gpa_max: 4.0,
+    degree: "Masters",
+    degree_short: "MS",
+    start_month: 9,
+    start_year: 2002 
+    end_month: 6,
+    end_year: 2006
+},
+{
+    school: "University of California",
+    location: "Davis, CA",
+    major: "Computer Engineering",
+    gpa: 3.7,
+    gpa_max: 4.0,
+    degree: "Docorate of Philosophy",
+    degree_short: "PhD",
+    start_month: 9,
+    start_year: 2002 
+    end_month: 10,
+    end_year: 2008
+}
+],
+professional: [
+    {
+    start_month: 4,
+    start_year: 2008,
+    company: "Sentilla",
+    location: "Redwood City, CA",
+    title: "Application Engineer",
+    details: [
+        ""
+    ]
+},
+{
+    start_month: 9,
+    start_year: 2007,
+    end_month: 12,
+    end_year: 2007
+    company: "Thomson PRL",
+    location: "Paris, FR",
+    title: "Research Intern",
+    details: [
+        "Designed social opportunistic networking management protocol",
+        "Implemented prototype as part of mobile social networking testbed",
+        "Deployed prototype in conference setting to collect real-world data",
+        "Analyzed data to make inferences about mobile social network usage"
+    ]
+},
+{
+    start_month: 9,
+    start_year: 2005,
+    end_month: 9,
+    end_year: 2006
+    company: "Sprint ATL",
+    location: "Burlingame, CA",
+    title: "Research Assistant",
+    details: [
+        "Refactored Opportunistic Communications Management Protocol implementation",
+        "Designed newsfeed management system",
+        "Analyzed performance of newsfeed management system for workshop publication"
+
+    ]
+},
+{
+    start_month: 9,
+    start_year: 2003,
+    end_month: 4,
+    end_year: 2008,
+    company: "RUBINET, University of California",
+    location: "Davis, CA",
+    title: "Graduate Student Researcher",
+    details: [
+        "VMesh: Opportunistic information dissemination/retrieval using vehicles",
+        "TinyAgent: Mobile code for wireless sensor networks",
+            "Bluespots: Opportunistic content distribution via multiple network interfaces",
+        "WiMo: Wireless mesh network with monitoring facilities"
+    ]
+},
+{   
+    start_month: 6,
+    start_year: 2005,
+    end_month: 9,
+    end_year: 2005,
+    company: "Motorola Labs",
+    title: "Research Intern",
+    location: "Schaumburg, IL",
+    details: [
+        "Developed an updated system for wireless sensor network (WSN) group programming",
+        "Collaborated on other WSN-related projects",
+        "Designed successful small-scale hardware demo for corporate review"
+    ]
+},
+{
+    start_month: 10,
+    start_year: 2002,
+    end_month: 9,
+    end_year: 2003,
+    company: "eMerchantTech.com",
+    title: "Web Application Programmer",
+    location: "Davis, CA",
+    details: [
+        "Developed new features  for a web store platform",
+        "Debugged existing code",
+        "Managed development and live version of platform"
+    ]
+},
+{
+    start_month: 6,
+    start_year: 2001,
+    end_month: 7,
+    end_year: 2002,
+    company: "Fingerworks, Inc. (Purchased by Apple)",
+    location: "Newark, DE",
+    details: [
+        "Researched prospective USB microcontrollers",
+        "Designed firmware code in C and assembly for USB interface",
+            "Created and managed Win32 interface drivers/libraries"
+    ]
+},
+{
+    start_month: 8,
+    start_year: 2000,
+    end_month: 5,
+    end_year: 2002,
+    company: "University of Delaware",
+    location: "Newark, DE",
+    details: [
+        "Assumed responsibility for two forty-person floors",
+        "Planned educations, recreational, and cultural events in the residence hall",
+        "Enforced university policy" 
+    ]
+}
+{
+    start_month: 1,
+    start_year: 1998,
+    end_month: 6,
+    end_year: 1998,
+    company: "University of Delaware",
+    location: "Newark, DE",
+    details: [
+        "Edited and revised mathematical proofs for a topology textbook",
+        "Formatted and proofread final working copy"
+    ]
+
+
+}
+
+],
+publications: [{
+    authors: "Anna-Kaisa Pietilainen, Earl oliver, Jason LeBrun, George Varghese, Christophe Diot",
+    type: "workshop",
+    title: "MobiClique: Middleware for mobile social networking",
+        venue: "SocialNets 2008"
+},
+{
+    authors: "Jason LeBrun, Chen-Nee Chuah, Supratik Bhattacharyya, Jean Bolot",
+    type: "workshop",
+    title: "Management for Intermittently Connected Environments",
+        venue: "MobiShare 2007"
+},
+{
+    authors: "Dhruv Gupta, Jason LeBrun, Prasant Mohapatra, Chen-Nee Chuah",
+    type: "workshop short paper",
+    title: "WDS-Based Layer 2 Routing for Wireless Mesh Networks",
+        venue: "WinTech 2006"
+},
+{
+    authors: "Jason LeBrun, Chen-Nee Chuah",
+    type: "workshop short paper",
+    title: "Feasibility Study of Bluetooth-Based Content Distribution Stations on Public Transit Systems",
+    venue: "MobiShare 2006"
+},
+{
+    authors: "Yang Yu, Loren Rittle, Jason LeBrun, Vartika Bhandari",
+    type: "conference paper",
+    title: "MELETE: Supporting Concurrent Applications in Wireless Sensor Networks",
+    venue: "Sensys 2006"
+},
+{
+    authors: "Jason LeBrun, Chen-Nee Chuah, Dipak Ghosal",
+    type: "conference paper",
+    title: "Knowledge-Based Opportunistic Forwarding in Vehiclar Wireless Ad-Hoc Networks",
+    venue: "IEEE Vehicular Technology Conference, Spring 2005"
+},
+{
+    authors: "Joseph Anda, Jason LeBrun, Dipak Ghosal, Chen-Nee Chuah, Michael Zhang",
+    type: "conference paper",
+    title: "VGrid: Vehicular AdHoc Networking and Computing Grid for Intelligent Traffic Control.",
+        venue: "IEEE Vehicular Technology Conference, Spring 2005"
+},
+{
+    authors: "Leo Szumel, Jason LeBrun, John Owens",
+    title: "Towards a Mobile Agent Framework for Sensor Networks",
+        venue: "EmNets 2005"
+}
+],
+memberships: [
+    "Tau Beta Pi",
+    "Phi Kappi Phi"
+],
+teaching: [{
+    start_month: 1,
+    start_year: 2005,
+    end_month: 5,
+    end_year: 2005,
+    company: "University of California Dept. of Electrical and Computer Engineering",
+    location: "Davis, CA",
+    course: "EEC150A - Introduction to Signals and Systems"
+},
+{
+    start_month: 9,
+    start_year: 2004,
+    end_month: 12,
+    end_year: 2004,
+    company: "University of California Dept. of Electrical and Computer Engineering",
+    location: "Davis, CA",
+    course: "Circuits and Signals"
+},
+{
+    start_month: 3,
+    start_year: 2004,
+    end_month: 6,
+    end_year: 2004,
+    company: "University of California Dept. of Electrical and Computer Engineering",
+    location: "Davis, CA",
+    course: "Digital Computer Systems (FPGA Class)"
+}
+
+
+],
+languages: [
+    "French"
+],
+skills: [
+    "JavaScript",
+    "Python",
+    "Java",
+    "C",
+    "Assembly",
+    "Bash scripting",
+    "PHP",
+    "SQL"
+],
+other_skills: [
+    "C++",
+    "Ruby"
+],
+other_activities: [
+    "American Recorder Orchestra of the West",
+    "Various local music ensembles",
+    "Mobile Application Development: Gliss for webOS"
+],
+other_facts: [
+    "Patch development on webOS",
+    "Protocol hacking on GAIM (Pidgin)"
+],
+}

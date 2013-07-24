@@ -1,0 +1,148 @@
+<html>
+    <head>
+        <title>Jason LeBrun - Résumé</title>
+        <style>
+            body {
+                font-family: Helvetica, Arial, sans;
+                font-size: 12pt;
+            }
+
+            .contact {
+                font-size: 12pt;
+            }
+            .half {
+                width: 50%;
+            }
+
+            .quarter {
+                width: 25%;
+            }
+
+            .threequarter {
+                width: 75%;
+            }
+
+            .row {
+                width: 100%;
+                clear: both;
+                margin-left: 0.25in;
+                margin-bottom: 0.1in;
+            }
+            .section {
+                width: 100%;
+                clear: both;
+                border-top: 1px solid black;
+                margin-top: 0.1in;
+            }
+
+            .left {
+                float: left;
+            }
+
+            .tcenter {
+                text-align: center;
+            }
+            .cl {
+                clear: both;
+                height: 0px;
+            }
+
+            .contact {
+                border-top: 1px solid black;
+            }
+
+            ul {
+                margin-top: 0px;
+                font-size: 10pt;
+            }
+
+            h2 {
+                font-size: 12pt;
+                margin: 0;
+                margin-bottom: 0.05in;
+            }
+
+            .title {
+                font-style: italic;
+            }
+            .org {
+                font-weight: bold;
+            }
+
+            .atom {
+                page-break-inside: avoid;
+            }
+
+        </style>
+    </head>
+    <body bgcolor="white" style="width: 8.5in;">
+        <script type="text/javascript" src="resume_data.json"></script>
+        <div resume-section="contact" class="contact">
+            <div class="left half">
+                <div class="name">
+                    <div class="first_name"></div>
+                    <div class="middle_name"></div>
+                    <div class="last_name"></div>
+                </div> 
+                <div class="address"> </div>
+            </div>
+            <div class="left half">
+                <div class="phone"> </div>
+                <div class="email"> </div>
+                <div class="www"></div>
+            </div>
+        </div>
+
+        <div resume-section="summary " class="summary section"></div>
+        <div resume-section="education" class="education section">
+            <h3>Education</h3>
+            <div class="prototype row">
+                <div class="left quarter">
+                    <div class="start_time">04/2008</div>
+                    <div class="time_sep"> - </div>
+                    <div class="end_time">Present</div>
+                </div>
+                <div class="left threequarter">
+                    <div class="degree">PhD in Electrical and Computer Engineering</div>
+                    <div class="clear org">University of California, Davis</div>
+                    <div class="clear degree_details">Thesis: Blah blah</div>
+                    <div class="clear gpa">GPA: 3.7/4.0</div>
+                </div>
+            </div>
+        </div>
+
+        <div resume-section="professional" class="professional section">
+            <h3>Professional Experience</h3>
+            <div class="experience-category">
+                <h3>Research</h3> 
+            </div>
+            <div class="experience-category">
+                <h3>Development</h3> 
+            </div>
+            <div class="experience-category">
+                <h3>Teaching</h3> 
+            </div>
+            <div class="experience-category">
+                <h3>Other</h3> 
+            </div>
+        </div>
+
+        <div class="publications section">
+            <h3>Publications</h3>
+        </div>
+
+        <div class="affiliations section">
+            <h3>Affiliations</h3>
+
+        </div>
+
+        <div class="Skills">
+
+        </div>
+
+        <script type="text/javascript" src="resume.js"></script>
+    </body>
+
+
+</html>
+

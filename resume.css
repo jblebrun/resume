@@ -1,8 +1,16 @@
 body {
-    font-family: "Helvetica", Arial, sans;
+    font-family: "Helvetica Neue Light", "Helvetica Neue", "Helvetica", Arial, sans;
     font-size: 12pt;
 }
-
+@media print
+{
+    .row {
+        page-break-inside:avoid;
+    }
+    .section {
+        page-break-inside:avoid;
+    }
+}
 .contact {
     font-size: 12pt;
 }
